@@ -1,0 +1,6 @@
+-- Mon programme
+begin
+MOV Rsw R3
+MOV R3 R4
+MOV R4 R7seg
+end

@@ -1,0 +1,2 @@
+vhdl isim_temp "compteur4.vhf"
+vhdl isim_temp "compteur4_tb.vhd"

@@ -1,0 +1,6 @@
+-- Mon programme 
+-- if A nand B
+MOV R1 Rsrc1
+MOV R2 Rsrc2
+OR
+MVNZ R3 CO  

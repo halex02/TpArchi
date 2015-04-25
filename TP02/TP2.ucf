@@ -1,0 +1,10 @@
+NET "a" LOC = "G18";
+NET "b" LOC = "H18";
+#
+NET "s0" LOC = "J14";
+NET "s1" LOC = "J15";
+NET "s2" LOC = "K15";
+NET "s3" LOC = "K14";
+NET "s4" LOC = "E16";
+NET "s5" LOC = "P16";
+NET "s6" LOC = "E4";

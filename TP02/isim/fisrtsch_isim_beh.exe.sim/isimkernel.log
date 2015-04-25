@@ -1,0 +1,30 @@
+Command line:
+   fisrtsch_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60332
+
+Wed Sep 24 08:45:43 2014
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 115.544 Meg
+
+ Total Signals          : 52
+ Total Nets             : 32
+ Total Signal Drivers   : 7
+ Total Blocks           : 11
+ Total Primitive Blocks : 10
+ Total Processes        : 7
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 515
+Total Line Count : 7
+Total Line Count : 7
+
+ Total Simulation Time: 0.05 sec
+
+ Current Memory Usage: 122.892 Meg
+
+Wed Sep 24 08:48:15 2014
+

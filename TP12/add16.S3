@@ -1,0 +1,17 @@
+Begin
+pause
+mov Rsw Rsrc1
+pause
+mov Rsw Rsrc2
+concat
+mov Rdest R1
+pause
+mov Rsw Rsrc1
+pause
+mov Rsw Rsrc2
+concat
+mov Rdest Rsrc1
+mov R1 Rsrc2
+add
+mov Rdest R7seg
+end

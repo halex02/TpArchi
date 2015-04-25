@@ -1,0 +1,3 @@
+sch2sym -intstyle ise -family spartan3e -refsym ALU /home/l2/houplon/Documents/Archi/TP/TP09/ALU.sch /home/l2/houplon/Documents/Archi/TP/TP09/ALU.sym 
+sch2sym -intstyle ise -family spartan3e -refsym ALU /home/l2/houplon/Documents/Archi/TP/TP09/ALU.sch /home/l2/houplon/Documents/Archi/TP/TP09/ALU.sym 
+sch2sym -intstyle ise -family spartan3e -refsym ALU /home/l2/houplon/Documents/Archi/TP/TP09/ALU.sch /home/l2/houplon/Documents/Archi/TP/TP09/ALU.sym 

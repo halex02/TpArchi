@@ -1,0 +1,6 @@
+-- Mon programme 
+-- if A = B 
+MOV R1 Rsrc1
+MOV R2 Rsrc2
+SUB 
+MVZ R3 CO

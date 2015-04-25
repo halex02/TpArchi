@@ -1,0 +1,5 @@
+MODULE add1bit
+	SUBMODULE demiadd
+		INSTANCE XLXI_1
+	SUBMODULE demiadd
+		INSTANCE XLXI_2

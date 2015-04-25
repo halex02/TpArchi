@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym add4bit /home/l2/houplon/Documents/Archi/TP/TP03/add4bit.sch /home/l2/houplon/Documents/Archi/TP/TP03/add4bit.sym 

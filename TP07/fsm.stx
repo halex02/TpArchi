@@ -1,0 +1,44 @@
+Release 12.4 - xst M.81d (lin)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/l2/houplon/Documents/Archi/TP/TP07/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/l2/houplon/Documents/Archi/TP/TP07/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/l2/houplon/Documents/Archi/TP/TP07/fsm.vhd" in Library work.
+Entity <fsm> compiled.
+ERROR:HDLParsers:3312 - "/home/l2/houplon/Documents/Archi/TP/TP07/fsm.vhd" Line 77. Undefined symbol 'travaux'.
+ERROR:HDLParsers:1209 - "/home/l2/houplon/Documents/Archi/TP/TP07/fsm.vhd" Line 77. travaux: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - "/home/l2/houplon/Documents/Archi/TP/TP07/fsm.vhd" Line 79. parse error, unexpected WHEN, expecting END
+ERROR:HDLParsers:164 - "/home/l2/houplon/Documents/Archi/TP/TP07/fsm.vhd" Line 84. parse error, unexpected PROCESS
+WARNING:HDLParsers:901 - "/home/l2/houplon/Documents/Archi/TP/TP07/fsm.vhd" Line 84. Label Synchro is ignored.
+ERROR:HDLParsers:164 - "/home/l2/houplon/Documents/Archi/TP/TP07/fsm.vhd" Line 96. parse error, unexpected PROCESS, expecting CASE
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+
+
+Total memory usage is 132208 kilobytes
+
+Number of errors   :    5 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,19 @@
+-- programme qui affiche la liste 
+-- 3 4 7 8 B C F 10 13 14 ... 
+begin 
+mvi 01 R1
+mov R1 Rsrc1 
+mvi 01 Rsrc2
+AND
+minz 0A CO
+mov R1 Rsrc2
+ADD
+mvi 0C CO
+mov Rdest R7seg 
+ADDC
+mov Rdest R7seg
+INC
+mov Rdest R1
+mvi 02 CO
+pause 
+end 

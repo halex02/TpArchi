@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym mux2x16 /home/l2/houplon/Documents/Archi/TP/TP07/mux2x16.sch /home/l2/houplon/Documents/Archi/TP/TP07/mux2x16.sym 

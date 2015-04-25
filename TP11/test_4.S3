@@ -1,0 +1,6 @@
+-- Mon programme 
+-- if A and B 
+MOV R1 Rsrc1
+MOV R2 Rsrc2
+OR 
+MVZ R3 CO

@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym testeur /home/l2/houplon/Documents/Archi/TP/TP10/testeur.sch /home/l2/houplon/Documents/Archi/TP/TP10/testeur.sym 

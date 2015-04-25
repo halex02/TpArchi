@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan3e -refsym controleur /home/l2/houplon/Documents/Archi/TP/TP05/controleur.sch /home/l2/houplon/Documents/Archi/TP/TP05/controleur.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl controleur_drc.vhf -w /home/l2/houplon/Documents/Archi/TP/TP05/controleur.sch 

@@ -1,0 +1,29 @@
+Command line:
+   pulse_pulse_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  39769
+
+Wed Dec  3 08:49:59 2014
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 115.54 Meg
+
+ Total Signals          : 73
+ Total Nets             : 41
+ Total Signal Drivers   : 15
+ Total Blocks           : 14
+ Total Primitive Blocks : 12
+ Total Processes        : 16
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 530
+Total Line Count : 22
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 122.888 Meg
+
+Wed Dec  3 08:50:32 2014
+

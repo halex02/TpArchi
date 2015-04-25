@@ -1,0 +1,25 @@
+begin
+MVI 00 Ram
+PAUSE
+MOV Rsw Rdm
+WRITE
+MVI 01 Ram
+PAUSE
+mov Rsw Rdm
+write
+mvi 02 Ram
+pause
+mov Rsw Rdm
+write
+mvi 00 Ram
+read
+mov Rdm R7seg
+pause
+mvi 01 Ram
+rea
+mov Rdm R7seg
+pause
+mvi 02 Ram
+read
+mov Rdm R7seg
+end

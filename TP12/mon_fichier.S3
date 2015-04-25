@@ -1,0 +1,12 @@
+-- Mon programme
+begin
+PAUSE
+MOV Rsw Rsrc1
+MOV Rsw R7seg
+PAUSE
+MOV Rsw Rsrc2
+MOV Rsw R7seg
+ADD
+PAUSE
+MOV Rdest R7seg
+end

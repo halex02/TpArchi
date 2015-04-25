@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan3e -refsym compteur4 /home/l2/houplon/Documents/Archi/TP/TP04/compteur4.sch /home/l2/houplon/Documents/Archi/TP/TP04/compteur4.sym 
+sch2sym -intstyle ise -family spartan3e -refsym compteur4 /home/l2/houplon/Documents/Archi/TP/TP04/compteur4.sch /home/l2/houplon/Documents/Archi/TP/TP04/compteur4.sym 

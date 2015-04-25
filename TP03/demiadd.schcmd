@@ -1,0 +1,4 @@
+add instance demiadd 880 1376 R0 -sn=1
+select figure at 455 1489 8 -branches -sn=1
+undo
+undo

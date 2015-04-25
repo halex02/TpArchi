@@ -1,0 +1,87 @@
+--------------------------------------------------------------------------------
+Release 12.4 Trace  (lin)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+/usr/local/Xilinx/12.4/ISE_DS/ISE/bin/lin/unwrapped/trce -intstyle ise -v 3 -s
+4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf
+-ucf S3.ucf
+
+Design file:              toplevel.ncd
+Physical constraint file: toplevel.pcf
+Device,package,speed:     xc3s1200e,fg320,-4 (PRODUCTION 1.27 2010-11-18)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+switches<0>    |led<0>         |    6.870|
+switches<0>    |led<1>         |    7.262|
+switches<0>    |led<2>         |    7.543|
+switches<0>    |led<3>         |    7.980|
+switches<0>    |led<4>         |   11.151|
+switches<1>    |led<1>         |    6.761|
+switches<1>    |led<2>         |    7.055|
+switches<1>    |led<3>         |    7.429|
+switches<1>    |led<4>         |   10.600|
+switches<2>    |led<2>         |    6.801|
+switches<2>    |led<3>         |    6.254|
+switches<2>    |led<4>         |    9.246|
+switches<3>    |led<3>         |    7.257|
+switches<3>    |led<4>         |    7.962|
+switches<4>    |led<0>         |    6.926|
+switches<4>    |led<1>         |    7.216|
+switches<4>    |led<2>         |    7.599|
+switches<4>    |led<3>         |    7.618|
+switches<4>    |led<4>         |   10.789|
+switches<5>    |led<1>         |    6.817|
+switches<5>    |led<2>         |    6.793|
+switches<5>    |led<3>         |    7.293|
+switches<5>    |led<4>         |   10.464|
+switches<6>    |led<2>         |    7.779|
+switches<6>    |led<3>         |    6.970|
+switches<6>    |led<4>         |    9.710|
+switches<7>    |led<3>         |    8.531|
+switches<7>    |led<4>         |    9.875|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Oct  1 09:16:26 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 102 MB
+
+
+

@@ -1,0 +1,7 @@
+-- Mon programme 
+MVI 01 R7seg
+NOP 
+MVI 02 CO 
+MVI 02 R7seg
+MVI 03 R7seg 
+end 

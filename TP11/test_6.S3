@@ -1,0 +1,6 @@
+-- Mon programme 
+-- B = NOT A 
+MOV R1 Rsrc1 
+ID
+MIZ 01 R2
+MINZ 00 R2

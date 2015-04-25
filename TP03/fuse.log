@@ -1,0 +1,31 @@
+Running: /usr/local/Xilinx/12.4/ISE_DS/ISE/bin/lin/unwrapped/fuse -intstyle ise -incremental -o /home/l2/houplon/Documents/Archi/TP/TP03/add4bit_add4bit_sch_tb_isim_beh.exe -prj /home/l2/houplon/Documents/Archi/TP/TP03/add4bit_add4bit_sch_tb_beh.prj work.add4bit_add4bit_sch_tb 
+ISim M.81d (signature 0x141a37e9)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP03/demiadd.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP03/add1bit.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP03/add4bit.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP03/add4bit_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 35192 KB
+Fuse CPU Usage: 210 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package numeric_std from library ieee
+Compiling package vcomponents
+Compiling architecture xor2_v of entity xor2 [xor2_default]
+Compiling architecture and2_v of entity and2 [and2_default]
+Compiling architecture behavioral of entity demiadd_muser_add4bit [demiadd_muser_add4bit_default]
+Compiling architecture or2_v of entity or2 [or2_default]
+Compiling architecture behavioral of entity add1bit_muser_add4bit [add1bit_muser_add4bit_default]
+Compiling architecture behavioral of entity add4bit [add4bit_default]
+Compiling architecture behavioral of entity add4bit_add4bit_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 17 VHDL Units
+Built simulation executable /home/l2/houplon/Documents/Archi/TP/TP03/add4bit_add4bit_sch_tb_isim_beh.exe
+Fuse Memory Usage: 76196 KB
+Fuse CPU Usage: 240 ms
+GCC CPU Usage: 300 ms

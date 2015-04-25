@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym clkdiv /home/l2/houplon/Documents/Archi/TP/TP04/clkdiv.sch /home/l2/houplon/Documents/Archi/TP/TP04/clkdiv.sym 

@@ -1,0 +1,135 @@
+Release 12.4 ngdbuild M.81d (lin)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line: /usr/local/Xilinx/12.4/ISE_DS/ISE/bin/lin/unwrapped/ngdbuild
+-intstyle ise -dd _ngo -aul -nt timestamp -uc S3.ucf -p xc3s1200e-fg320-4
+toplevel.ngc toplevel.ngd
+
+Reading NGO file "/home/l2/houplon/Documents/Archi/TP/TP03/toplevel.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "S3.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:59 - Constraint <NET "anodes<0>" LOC = "F17" ;>
+   [S3.ucf(19)]: NET "anodes<0>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:204 - A target design object for the Locate constraint
+   '<NET "anodes<0>" LOC = "F17" ;> [S3.ucf(19)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "anodes<1>" LOC = "H17" ;>
+   [S3.ucf(20)]: NET "anodes<1>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:204 - A target design object for the Locate constraint
+   '<NET "anodes<1>" LOC = "H17" ;> [S3.ucf(20)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "anodes<2>" LOC = "C18" ;>
+   [S3.ucf(21)]: NET "anodes<2>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:204 - A target design object for the Locate constraint
+   '<NET "anodes<2>" LOC = "C18" ;> [S3.ucf(21)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "anodes<3>" LOC = "F15" ;>
+   [S3.ucf(22)]: NET "anodes<3>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:204 - A target design object for the Locate constraint
+   '<NET "anodes<3>" LOC = "F15" ;> [S3.ucf(22)]' could not be found and so the
+   Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sevenseg<0>" LOC = "L18" ;>
+   [S3.ucf(24)]: NET "sevenseg<0>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:204 - A target design object for the Locate constraint
+   '<NET "sevenseg<0>" LOC = "L18" ;> [S3.ucf(24)]' could not be found and so
+   the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sevenseg<1>" LOC = "F18" ;>
+   [S3.ucf(25)]: NET "sevenseg<1>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:204 - A target design object for the Locate constraint
+   '<NET "sevenseg<1>" LOC = "F18" ;> [S3.ucf(25)]' could not be found and so
+   the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sevenseg<2>" LOC = "D17" ;>
+   [S3.ucf(26)]: NET "sevenseg<2>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:204 - A target design object for the Locate constraint
+   '<NET "sevenseg<2>" LOC = "D17" ;> [S3.ucf(26)]' could not be found and so
+   the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sevenseg<3>" LOC = "D16" ;>
+   [S3.ucf(27)]: NET "sevenseg<3>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:204 - A target design object for the Locate constraint
+   '<NET "sevenseg<3>" LOC = "D16" ;> [S3.ucf(27)]' could not be found and so
+   the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sevenseg<4>" LOC = "G14" ;>
+   [S3.ucf(28)]: NET "sevenseg<4>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:204 - A target design object for the Locate constraint
+   '<NET "sevenseg<4>" LOC = "G14" ;> [S3.ucf(28)]' could not be found and so
+   the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sevenseg<5>" LOC = "J17" ;>
+   [S3.ucf(29)]: NET "sevenseg<5>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:204 - A target design object for the Locate constraint
+   '<NET "sevenseg<5>" LOC = "J17" ;> [S3.ucf(29)]' could not be found and so
+   the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sevenseg<6>" LOC = "H14" ;>
+   [S3.ucf(30)]: NET "sevenseg<6>" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:204 - A target design object for the Locate constraint
+   '<NET "sevenseg<6>" LOC = "H14" ;> [S3.ucf(30)]' could not be found and so
+   the Locate constraint will be removed.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  11
+
+Total memory usage is 84840 kilobytes
+
+Writing NGD file "toplevel.ngd" ...
+Total REAL time to NGDBUILD completion:  1 sec
+Total CPU time to NGDBUILD completion:   1 sec
+
+Writing NGDBUILD log file "toplevel.bld"...

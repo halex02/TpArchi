@@ -1,0 +1,12 @@
+memory_initialization_radix=16;
+memory_initialization_vector=
+0000
+2018
+2028
+00E9
+202A
+1200
+00BE
+0000
+2048
+;

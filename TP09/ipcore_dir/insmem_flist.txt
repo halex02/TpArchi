@@ -1,0 +1,18 @@
+# Output products list for <insmem>
+_xmsgs/pn_parser.xmsgs
+dist_mem_gen_ds322.pdf
+dist_mem_gen_readme.txt
+insmem.asy
+insmem.gise
+insmem.mif
+insmem.ngc
+insmem.sym
+insmem.v
+insmem.veo
+insmem.vhd
+insmem.vho
+insmem.xco
+insmem.xise
+insmem_flist.txt
+insmem_readme.txt
+insmem_xmdf.tcl

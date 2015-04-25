@@ -1,0 +1,24 @@
+-- programme qui affiche fibonacci en Hexa 
+--0 1 1 2 3 5 8 D 15 22 37 59 90 E9 179 262 3DB 
+begin 
+mvi 00 R1
+mvi 01 R2
+mvi 00 R3 
+PAUSE 
+mov R3 Rsrc1
+mov Rsw Rsrc2
+sub 
+miz 12 CO 
+INC 
+mov Rdest R3
+mov R1 Rsrc1
+mov R2 Rsrc2
+add
+mov R2 R1
+mov Rdest R2
+mvi 06 Co 
+mov R3 Rsrc1
+mov R1 R7seg 
+mvi 01 CO 
+NOP 
+end 

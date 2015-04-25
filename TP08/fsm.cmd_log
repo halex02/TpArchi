@@ -1,0 +1,6 @@
+vhdtdtfi -lib work fsm.vhd -prj TP08 -o fsm.spl -module fsm -template /usr/local/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e fsm.spl /home/l2/houplon/Documents/Archi/TP/TP08/fsm.sym 
+vhdtdtfi -lib work fsm.vhd -prj TP08 -o fsm.spl -module fsm -template /usr/local/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e fsm.spl /home/l2/houplon/Documents/Archi/TP/TP08/fsm.sym 
+vhdtdtfi -lib work fsm.vhd -prj TP08 -o fsm.spl -module fsm -template /usr/local/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e fsm.spl /home/l2/houplon/Documents/Archi/TP/TP08/fsm.sym 

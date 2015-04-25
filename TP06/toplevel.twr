@@ -1,0 +1,98 @@
+--------------------------------------------------------------------------------
+Release 12.4 Trace  (lin)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+/usr/local/Xilinx/12.4/ISE_DS/ISE/bin/lin/unwrapped/trce -intstyle ise -v 3 -s
+4 -n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf
+-ucf S3.ucf
+
+Design file:              toplevel.ncd
+Physical constraint file: toplevel.pcf
+Device,package,speed:     xc3s1200e,fg320,-4 (PRODUCTION 1.27 2010-11-18)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+switches<0> |    0.118(R)|    1.161(R)|XLXN_5            |   0.000|
+switches<1> |   -0.181(R)|    1.401(R)|XLXN_5            |   0.000|
+switches<2> |    0.138(R)|    1.149(R)|XLXN_5            |   0.000|
+switches<3> |    0.062(R)|    1.210(R)|XLXN_5            |   0.000|
+switches<4> |    0.517(R)|    0.845(R)|XLXN_5            |   0.000|
+switches<5> |    0.762(R)|    0.650(R)|XLXN_5            |   0.000|
+switches<6> |    1.407(R)|    0.107(R)|XLXN_5            |   0.000|
+switches<7> |    2.476(R)|   -0.748(R)|XLXN_5            |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+led<0>      |    7.815(R)|XLXN_5            |   0.000|
+led<1>      |    7.819(R)|XLXN_5            |   0.000|
+led<2>      |    7.620(R)|XLXN_5            |   0.000|
+led<3>      |    7.548(R)|XLXN_5            |   0.000|
+led<4>      |    8.923(R)|XLXN_5            |   0.000|
+led<5>      |    9.221(R)|XLXN_5            |   0.000|
+led<6>      |   11.403(R)|XLXN_5            |   0.000|
+led<7>      |   10.511(R)|XLXN_5            |   0.000|
+sevenseg<0> |   12.196(R)|XLXN_5            |   0.000|
+sevenseg<1> |   11.893(R)|XLXN_5            |   0.000|
+sevenseg<2> |   11.785(R)|XLXN_5            |   0.000|
+sevenseg<3> |   12.036(R)|XLXN_5            |   0.000|
+sevenseg<4> |   11.938(R)|XLXN_5            |   0.000|
+sevenseg<5> |   12.203(R)|XLXN_5            |   0.000|
+sevenseg<6> |   10.897(R)|XLXN_5            |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.270|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed Nov 19 09:20:41 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 104 MB
+
+
+

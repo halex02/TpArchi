@@ -1,0 +1,9 @@
+[Inputs]
+clk
+[Outputs]
+RI2B
+COinc
+B2CO
+RIload
+B2R7seg
+[BiDir]

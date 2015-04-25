@@ -1,0 +1,3 @@
+sch2sym -intstyle ise -family spartan3e -refsym S3 /home/l2/houplon/Documents/Archi/TP/TP10/S3.sch /home/l2/houplon/Documents/Archi/TP/TP10/S3.sym 
+sch2sym -intstyle ise -family spartan3e -refsym S3 /home/l2/houplon/Documents/Archi/TP/TP10/S3.sch /home/l2/houplon/Documents/Archi/TP/TP10/S3.sym 
+sch2sym -intstyle ise -family spartan3e -refsym S3 /home/l2/houplon/Documents/Archi/TP/TP10/S3.sch /home/l2/houplon/Documents/Archi/TP/TP10/S3.sym 

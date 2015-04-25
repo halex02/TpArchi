@@ -1,0 +1,11 @@
+-- Mon programme 
+Begin
+Mvi 01 R7seg
+Mov CO Rsrc1
+Mvi 05 Rsrc2
+Add
+Mov Rdest CO
+Nop
+Mvi 04 R7seg
+Nop
+End

@@ -1,0 +1,20 @@
+Begin
+mvi 0A Co
+nop
+pause
+mov Rsw Rsrc1
+pause
+mov Rsw Rsrc2
+concat
+pop CO
+mov Rdest R1
+mvi 03 CO
+pushi 0C zero
+mov R1 R2
+mvi 03 CO
+pushi 0F zero
+mov R1 Rsrc1
+mov R2 Rsrc2
+add
+mov Rdest R7seg
+end

@@ -1,0 +1,16 @@
+-- Mon programme 
+Begin 
+PAUSE 
+MOV Rsw Rsrc1
+ID
+MIZ 01 Rsrc2
+MINZ 00 Rsrc2
+PAUSE 
+MOV Rsw Rsrc1
+ID 
+MIZ 01 Rsrc1
+MINZ 00 Rsrc1
+OR 
+MINZ 01 R7seg 
+MINZ 02 R7seg 
+end 

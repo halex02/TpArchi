@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">XLXI_10/ArithmeticLogicUnit/XLXI_37/OFL</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="395" delta="new" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">19</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="3">XLXI_10/ArithmeticLogicUnit/XLXI_45/XLXI_1/OFL,
+XLXI_10/ArithmeticLogicUnit/XLXI_41/XLXI_1/OFL,
+XLXI_10/ArithmeticLogicUnit/XLXI_43/XLXI_1/OFL,
+XLXI_10/incCO/XLXI_1/OFL,
+XLXI_10/XLXI_183/D0</arg>
+To see the details of these <arg fmt="%s" index="4">info</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">XLXI_16/XLXI_11</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_10/FiniteStateMachine/next_state_0_mux0000_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+</messages>
+

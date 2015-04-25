@@ -1,0 +1,7 @@
+; Programme hexa pour processeur S3$
+memory_initialization_radix = 16 ;
+memory_initialization_vector =
+23f4
+1234
+5678
+FEFE ;

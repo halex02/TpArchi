@@ -1,0 +1,8 @@
+AR x7seg behavioral /home/l2/houplon/Documents/Archi/TP/TP01/x7seg.vhd sub00/vhpl07 1411539534
+AR toplevel behavioral /home/l2/houplon/Documents/Archi/TP/TP01/toplevel.vhf sub00/vhpl05 1411539540
+EN ibuf8_mxilinx_toplevel NULL /home/l2/houplon/Documents/Archi/TP/TP01/toplevel.vhf sub00/vhpl00 1411539535
+EN x7seg NULL /home/l2/houplon/Documents/Archi/TP/TP01/x7seg.vhd sub00/vhpl06 1411539533
+EN toplevel NULL /home/l2/houplon/Documents/Archi/TP/TP01/toplevel.vhf sub00/vhpl04 1411539539
+EN obuf8_mxilinx_toplevel NULL /home/l2/houplon/Documents/Archi/TP/TP01/toplevel.vhf sub00/vhpl02 1411539537
+AR ibuf8_mxilinx_toplevel behavioral /home/l2/houplon/Documents/Archi/TP/TP01/toplevel.vhf sub00/vhpl01 1411539536
+AR obuf8_mxilinx_toplevel behavioral /home/l2/houplon/Documents/Archi/TP/TP01/toplevel.vhf sub00/vhpl03 1411539538

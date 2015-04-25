@@ -1,0 +1,5 @@
+-- Mon programme 
+-- if NOT A 
+MOV R1 Rsrc1
+ID
+MVNZ R3 CO

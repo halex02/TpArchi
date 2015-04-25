@@ -1,0 +1,8 @@
+[Inputs]
+clk
+travaux
+=cpt[3:0]=
+[Outputs]
+reset_cpt
+=led[7:0]=
+[BiDir]

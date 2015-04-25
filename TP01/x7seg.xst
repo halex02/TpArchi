@@ -1,0 +1,5 @@
+set -tmpdir "/home/l2/houplon/Documents/Archi/TP/TP01/xst/projnav.tmp"
+set -xsthdpdir "/home/l2/houplon/Documents/Archi/TP/TP01/xst"
+elaborate
+-ifn x7seg.prj
+-ifmt mixed

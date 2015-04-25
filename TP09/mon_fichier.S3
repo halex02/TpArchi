@@ -1,0 +1,7 @@
+-- Mon programme
+begin
+MOV Rsw Rsrc1
+MOV Rsw Rsrc2
+ADD
+MOV Rdest R7seg
+end

@@ -1,0 +1,2 @@
+sch2hdl,-sympath,/home/l2/houplon/Documents/Archi/TP/TP12/ipcore_dir,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/houplon/Documents/Archi/TP/TP12/toplevel.vhf,-w,/home/l2/houplon/Documents/Archi/TP/TP12/toplevel.sch
+sch2hdl,-sympath,/home/l2/houplon/Documents/Archi/TP/TP12/ipcore_dir,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/houplon/Documents/Archi/TP/TP12/S3.vhf,-w,/home/l2/houplon/Documents/Archi/TP/TP12/S3.sch

@@ -1,0 +1,9 @@
+begin
+PAUSE
+MOV Rsw Rsrc1
+MOV Rsw R7seg
+MVI 05 Rsrc2
+ADD
+PAUSE
+MOV Rdest R7seg
+end

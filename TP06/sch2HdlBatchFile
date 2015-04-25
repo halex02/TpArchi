@@ -1,0 +1,8 @@
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/houplon/Documents/Archi/TP/TP06/toplevel.vhf,-w,/home/l2/houplon/Documents/Archi/TP/TP06/toplevel.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/houplon/Documents/Archi/TP/TP06/S3.vhf,-w,/home/l2/houplon/Documents/Archi/TP/TP06/S3.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/houplon/Documents/Archi/TP/TP06/connecteur.vhf,-w,/home/l2/houplon/Documents/Archi/TP/TP06/connecteur.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/houplon/Documents/Archi/TP/TP06/connecteur16.vhf,-w,/home/l2/houplon/Documents/Archi/TP/TP06/connecteur16.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/houplon/Documents/Archi/TP/TP06/clkdiv.vhf,-w,/home/l2/houplon/Documents/Archi/TP/TP06/clkdiv.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/houplon/Documents/Archi/TP/TP06/compteur4.vhf,-w,/home/l2/houplon/Documents/Archi/TP/TP06/compteur4.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/houplon/Documents/Archi/TP/TP06/mux4x4.vhf,-w,/home/l2/houplon/Documents/Archi/TP/TP06/mux4x4.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/houplon/Documents/Archi/TP/TP06/afficheur16.vhf,-w,/home/l2/houplon/Documents/Archi/TP/TP06/afficheur16.sch

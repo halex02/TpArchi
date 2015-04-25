@@ -1,0 +1,9 @@
+V3 11
+FL /home/l2/houplon/Documents/Archi/TP/TP02/fisrtsch.vhf 2014/09/24.08:42:47 M.81d
+EN work/fisrtsch 1411541774 \
+      FL /home/l2/houplon/Documents/Archi/TP/TP02/fisrtsch.vhf \
+      PB ieee/std_logic_1164 1290154108 PB ieee/NUMERIC_STD 1290154109 LB UNISIM \
+      PH unisim/VCOMPONENTS 1290154108
+AR work/fisrtsch/BEHAVIORAL 1411541775 \
+      FL /home/l2/houplon/Documents/Archi/TP/TP02/fisrtsch.vhf EN work/fisrtsch 1411541774 \
+      CP AND2 CP INV CP NAND2 CP NOR2 CP OR2 CP XNOR2 CP XOR2

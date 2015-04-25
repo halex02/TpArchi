@@ -1,0 +1,26 @@
+Running: /usr/local/Xilinx/12.4/ISE_DS/ISE/bin/lin/unwrapped/fuse -intstyle ise -incremental -o /home/l2/houplon/Documents/Archi/TP/TP04/compteur4_compteur4_sch_tb_isim_beh.exe -prj /home/l2/houplon/Documents/Archi/TP/TP04/compteur4_compteur4_sch_tb_beh.prj work.compteur4_compteur4_sch_tb 
+ISim M.81d (signature 0x141a37e9)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP04/compteur4.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP04/compteur4_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 35160 KB
+Fuse CPU Usage: 200 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package numeric_std from library ieee
+Compiling package vcomponents
+Compiling architecture fd_v of entity fd [\FD('0')\]
+Compiling architecture inv_v of entity inv [inv_default]
+Compiling architecture behavioral of entity compteur4 [compteur4_default]
+Compiling architecture behavioral of entity compteur4_compteur4_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 11 VHDL Units
+Built simulation executable /home/l2/houplon/Documents/Archi/TP/TP04/compteur4_compteur4_sch_tb_isim_beh.exe
+Fuse Memory Usage: 76164 KB
+Fuse CPU Usage: 210 ms
+GCC CPU Usage: 230 ms

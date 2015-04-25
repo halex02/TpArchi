@@ -1,0 +1,3 @@
+vhdl isim_temp "fsm.vhd"
+vhdl isim_temp "controleur.vhf"
+vhdl isim_temp "controleur_tb.vhd"

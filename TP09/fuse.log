@@ -1,0 +1,96 @@
+Running: /usr/local/Xilinx/12.4/ISE_DS/ISE/bin/lin/unwrapped/fuse -intstyle ise -incremental -o /home/l2/houplon/Documents/Archi/TP/TP09/toplevel_toplevel_sch_tb_isim_beh.exe -prj /home/l2/houplon/Documents/Archi/TP/TP09/toplevel_toplevel_sch_tb_beh.prj work.toplevel_toplevel_sch_tb 
+ISim M.81d (signature 0x141a37e9)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/ipcore_dir/insmem.vhd" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/mux2x16.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/inc.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/dec.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/connecteur.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/concat.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/andor.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/x7seg.vhd" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/mux4x4.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/fsm.vhd" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/connecteur16.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/compteur4.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/ALU.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/S3.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/clkdiv.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/afficheur16.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/toplevel.vhf" into library work
+Parsing VHDL file "/home/l2/houplon/Documents/Archi/TP/TP09/toplevel_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 39680 KB
+Fuse CPU Usage: 410 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package numeric_std from library ieee
+Using precompiled package textio from library std
+Using precompiled package vital_timing from library ieee
+Compiling package vcomponents
+Compiling architecture fd_v of entity fd [\FD('0')\]
+Compiling architecture inv_v of entity inv [inv_default]
+Compiling architecture behavioral of entity clkdiv_muser_toplevel [clkdiv_muser_toplevel_default]
+Compiling architecture behavioral of entity compteur4_muser_toplevel [compteur4_muser_toplevel_default]
+Compiling architecture and3_v of entity and3 [and3_default]
+Compiling architecture and3b1_v of entity and3b1 [and3b1_default]
+Compiling architecture or2_v of entity or2 [or2_default]
+Compiling architecture behavioral of entity m2_1e_mxilinx_toplevel [m2_1e_mxilinx_toplevel_default]
+Compiling architecture muxf5_v of entity muxf5 [muxf5_default]
+Compiling architecture behavioral of entity m4_1e_mxilinx_toplevel [m4_1e_mxilinx_toplevel_default]
+Compiling architecture vcc_v of entity vcc [vcc_default]
+Compiling architecture behavioral of entity mux4x4_muser_toplevel [mux4x4_muser_toplevel_default]
+Compiling architecture behavioral of entity x7seg [x7seg_default]
+Compiling architecture behavioral of entity afficheur16_muser_toplevel [afficheur16_muser_toplevel_defau...]
+Compiling architecture bufg_v of entity bufg [bufg_default]
+Compiling architecture ibuf_v of entity ibuf [\IBUF("DONT_CARE","0",true,"AUTO...]
+Compiling architecture behavioral of entity ibuf8_mxilinx_toplevel [ibuf8_mxilinx_toplevel_default]
+Compiling architecture obuf_v of entity obuf [\OBUF("DONT_CARE",12,"DEFAULT","...]
+Compiling architecture behavioral of entity obuf8_mxilinx_toplevel [obuf8_mxilinx_toplevel_default]
+Compiling architecture and2_v of entity and2 [and2_default]
+Compiling architecture behavioral of entity connecteur_muser_toplevel [connecteur_muser_toplevel_defaul...]
+Compiling architecture behavioral of entity connecteur16_muser_toplevel [connecteur16_muser_toplevel_defa...]
+Compiling architecture fdce_v of entity fdce [\FDCE('0')\]
+Compiling architecture behavioral of entity fd16ce_mxilinx_toplevel [fd16ce_mxilinx_toplevel_default]
+Compiling architecture behavioral of entity fsm [fsm_default]
+Compiling architecture fmap_v of entity fmap [fmap_default]
+Compiling architecture muxcy_l_v of entity muxcy_l [muxcy_l_default]
+Compiling architecture muxcy_v of entity muxcy [muxcy_default]
+Compiling architecture xorcy_v of entity xorcy [xorcy_default]
+Compiling architecture muxcy_d_v of entity muxcy_d [muxcy_d_default]
+Compiling architecture xor2_v of entity xor2 [xor2_default]
+Compiling architecture behavioral of entity add16_mxilinx_toplevel [add16_mxilinx_toplevel_default]
+Compiling architecture behavioral of entity inc_muser_toplevel [inc_muser_toplevel_default]
+Compiling architecture behavioral of entity dist_mem_gen_v5_1 [\dist_mem_gen_v5_1("spartan3",8,...]
+Compiling architecture insmem_a of entity insmem [insmem_default]
+Compiling architecture and2b1_v of entity and2b1 [and2b1_default]
+Compiling architecture behavioral of entity m2_1_mxilinx_toplevel [m2_1_mxilinx_toplevel_default]
+Compiling architecture behavioral of entity mux2x16_muser_toplevel [mux2x16_muser_toplevel_default]
+Compiling architecture and5b3_v of entity and5b3 [and5b3_default]
+Compiling architecture and5b2_v of entity and5b2 [and5b2_default]
+Compiling architecture and5b1_v of entity and5b1 [and5b1_default]
+Compiling architecture and5_v of entity and5 [and5_default]
+Compiling architecture and5b4_v of entity and5b4 [and5b4_default]
+Compiling architecture behavioral of entity d4_16e_mxilinx_toplevel [d4_16e_mxilinx_toplevel_default]
+Compiling architecture xor3_v of entity xor3 [xor3_default]
+Compiling architecture behavioral of entity adsu16_mxilinx_toplevel [adsu16_mxilinx_toplevel_default]
+Compiling architecture behavioral of entity inv16_mxilinx_toplevel [inv16_mxilinx_toplevel_default]
+Compiling architecture behavioral of entity andor_muser_toplevel [andor_muser_toplevel_default]
+Compiling architecture buf_v of entity buf [buf_default]
+Compiling architecture behavioral of entity concat_muser_toplevel [concat_muser_toplevel_default]
+Compiling architecture gnd_v of entity gnd [gnd_default]
+Compiling architecture behavioral of entity dec_muser_toplevel [dec_muser_toplevel_default]
+Compiling architecture behavioral of entity alu_muser_toplevel [alu_muser_toplevel_default]
+Compiling architecture behavioral of entity s3_muser_toplevel [s3_muser_toplevel_default]
+Compiling architecture behavioral of entity toplevel [toplevel_default]
+Compiling architecture behavioral of entity toplevel_toplevel_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 117 VHDL Units
+Built simulation executable /home/l2/houplon/Documents/Archi/TP/TP09/toplevel_toplevel_sch_tb_isim_beh.exe
+Fuse Memory Usage: 80684 KB
+Fuse CPU Usage: 540 ms
+GCC CPU Usage: 1110 ms

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work x7seg.vhd -prj TP01 -o x7seg.spl -module x7seg -template /usr/local/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e x7seg.spl /home/l2/houplon/Documents/Archi/TP/TP01/x7seg.sym 

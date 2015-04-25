@@ -1,0 +1,5 @@
+vhdl isim_temp "ipcore_dir/insmem.vhd"
+vhdl isim_temp "x7seg.vhd"
+vhdl isim_temp "fsm.vhd"
+vhdl isim_temp "pulse.vhf"
+vhdl isim_temp "toplevel_tb.vhd"

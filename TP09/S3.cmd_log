@@ -1,0 +1,6 @@
+sch2sym -intstyle ise -family spartan3e -refsym S3 /home/l2/houplon/Documents/Archi/TP/TP09/S3.sch /home/l2/houplon/Documents/Archi/TP/TP09/S3.sym 
+sch2sym -intstyle ise -family spartan3e -refsym S3 /home/l2/houplon/Documents/Archi/TP/TP09/S3.sch /home/l2/houplon/Documents/Archi/TP/TP09/S3.sym 
+sch2hdl -sympath /home/l2/houplon/Documents/Archi/TP/TP09/ipcore_dir -intstyle ise -family spartan3e -flat -suppress -vhdl S3_drc.vhf -w /home/l2/houplon/Documents/Archi/TP/TP09/S3.sch 
+sch2sym -intstyle ise -family spartan3e -refsym S3 /home/l2/houplon/Documents/Archi/TP/TP09/S3.sch /home/l2/houplon/Documents/Archi/TP/TP09/S3.sym 
+sch2sym -intstyle ise -family spartan3e -refsym S3 /home/l2/houplon/Documents/Archi/TP/TP09/S3.sch /home/l2/houplon/Documents/Archi/TP/TP09/S3.sym 
+sch2sym -intstyle ise -family spartan3e -refsym S3 /home/l2/houplon/Documents/Archi/TP/TP09/S3.sch /home/l2/houplon/Documents/Archi/TP/TP09/S3.sym 

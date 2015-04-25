@@ -1,0 +1,16 @@
+# Output products list for <datamem>
+_xmsgs/pn_parser.xmsgs
+datamem.asy
+datamem.gise
+datamem.ngc
+datamem.sym
+datamem.v
+datamem.veo
+datamem.vhd
+datamem.vho
+datamem.xco
+datamem.xise
+datamem_flist.txt
+datamem_xmdf.tcl
+dist_mem_gen_ds322.pdf
+dist_mem_gen_readme.txt

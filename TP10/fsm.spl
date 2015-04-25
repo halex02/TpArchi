@@ -1,0 +1,13 @@
+[Inputs]
+clk
+continue
+=instr[15:0]=
+[Outputs]
+COinc
+RIload
+test_Z
+test_NZ
+=OP[3:0]=
+=source[3:0]=
+=dest[3:0]=
+[BiDir]

@@ -1,0 +1,4 @@
+sch2hdl,-sympath,/home/l2/houplon/Documents/Archi/TP/TP10/ipcore_dir,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/houplon/Documents/Archi/TP/TP10/toplevel.vhf,-w,/home/l2/houplon/Documents/Archi/TP/TP10/toplevel.sch
+sch2hdl,-sympath,/home/l2/houplon/Documents/Archi/TP/TP10/ipcore_dir,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/houplon/Documents/Archi/TP/TP10/S3.vhf,-w,/home/l2/houplon/Documents/Archi/TP/TP10/S3.sch
+sch2hdl,-sympath,/home/l2/houplon/Documents/Archi/TP/TP10/ipcore_dir,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/houplon/Documents/Archi/TP/TP10/immediat.vhf,-w,/home/l2/houplon/Documents/Archi/TP/TP10/immediat.sch
+sch2hdl,-sympath,/home/l2/houplon/Documents/Archi/TP/TP10/ipcore_dir,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,/home/l2/houplon/Documents/Archi/TP/TP10/testeur.vhf,-w,/home/l2/houplon/Documents/Archi/TP/TP10/testeur.sch
